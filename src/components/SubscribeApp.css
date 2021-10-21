@@ -1,0 +1,23 @@
+.SubscribeApp{
+    display: flex; 
+    flex-direction: column; 
+    width: 310px; 
+    border-radius: 6px 6px 0 0 ;
+    overflow: hidden; 
+}
+
+.twoBoxContainer {
+    display: flex; 
+    flex-direction: column; 
+    background-color: #2AB3B1;   
+}
+
+/* tablet and desktop */
+@media screen and (min-width: 635px){
+    .SubscribeApp{
+        width: 635px; 
+    }
+    .twoBoxContainer {
+        flex-direction: row; 
+    }
+}

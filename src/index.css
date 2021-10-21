@@ -1,0 +1,14 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+body {
+    height: 100vh; 
+    background-color: #E6EFF5; 
+    font-family: 'Karla', sans-serif;
+}
+
+#root {
+    height: 100%
+}
